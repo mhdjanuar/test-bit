@@ -1,0 +1,28 @@
+var array = ['pro','gram','merit','program','it','programer']
+
+
+var hasil = []
+
+function setInput(input){
+  array.forEach((data) =>{
+  var check = input.includes(data)
+
+  if(check == true){
+     var hasilCheck = hasil.push(data)     
+  }
+
+})
+}
+
+setInput('programit')
+
+setInput('programerit')
+
+
+console.log(hasil[0],hasil[1],hasil[3])
+console.log(hasil[2],hasil[3])
+
+
+// console.log(hasil[0],hasil[1],hasil[2])
+// console.log(hasil[3],hasil[2])
+// console.log(hasil[5],hasil[4])
